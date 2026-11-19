@@ -1,0 +1,16 @@
+class,train,val,test,ex
+Normal,187980,26854,53708,50
+Backdoor,15430,2211,4426,50
+DDoS_HTTP,9869,1415,2817,50
+DDoS_ICMP,1,0,2,0
+DDoS_TCP,20372,2910,5821,50
+DDoS_UDP,0,0,1,0
+Fingerprinting,3,0,2,0
+MITM,215,31,62,50
+Password,35,4,14,12
+Port_Scanning,6958,994,1989,50
+Ransomware,5768,824,1649,50
+SQL_injection,1107,158,318,50
+Uploading,155,22,47,50
+Vulnerability_scanner,13687,1952,3923,50
+XSS,121,18,39,48

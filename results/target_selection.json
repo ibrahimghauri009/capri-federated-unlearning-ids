@@ -1,0 +1,72 @@
+{
+ "reference_model": "HistGradientBoosting (centralised, class-balanced), seed-0 split, validation set",
+ "val_recall": {
+  "Normal": 1.0,
+  "Backdoor": 0.713,
+  "DDoS_HTTP": 0.948,
+  "DDoS_ICMP": null,
+  "DDoS_TCP": 1.0,
+  "DDoS_UDP": null,
+  "Fingerprinting": null,
+  "MITM": 1.0,
+  "Password": 0.25,
+  "Port_Scanning": 0.998,
+  "Ransomware": 0.965,
+  "SQL_injection": 0.975,
+  "Uploading": 0.773,
+  "Vulnerability_scanner": 0.99,
+  "XSS": 0.889
+ },
+ "val_support": [
+  26854,
+  2211,
+  1415,
+  0,
+  2910,
+  0,
+  0,
+  31,
+  4,
+  994,
+  824,
+  158,
+  22,
+  1952,
+  18
+ ],
+ "eligible_sorted_by_size": [
+  "XSS",
+  "MITM",
+  "SQL_injection",
+  "Ransomware",
+  "Port_Scanning",
+  "DDoS_HTTP",
+  "Vulnerability_scanner",
+  "DDoS_TCP"
+ ],
+ "thirds": [
+  [
+   "XSS",
+   "MITM",
+   "SQL_injection"
+  ],
+  [
+   "Ransomware",
+   "Port_Scanning",
+   "DDoS_HTTP"
+  ],
+  [
+   "Vulnerability_scanner",
+   "DDoS_TCP"
+  ]
+ ],
+ "targets": {
+  "rare": "MITM",
+  "medium": "Port_Scanning",
+  "common": "DDoS_TCP"
+ },
+ "excluded_not_separable": [
+  "Uploading",
+  "Backdoor"
+ ]
+}

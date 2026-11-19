@@ -1,0 +1,11 @@
+subset,policy,precision,recall,F1,n,at risk
+all families,CAPRI-Audit (all signals),0.266,0.980,0.418,493,51
+all families,Audit: ownership + contribution,0.160,0.980,0.275,493,51
+all families,Audit: ownership only,0.103,1.000,0.188,493,51
+all families,Rule-only (counts),0.686,0.471,0.558,493,51
+all families,No warning,0.000,0.000,0.000,493,51
+m_c > 0 (non-trivial),CAPRI-Audit (all signals),0.207,0.973,0.341,479,37
+m_c > 0 (non-trivial),Audit: ownership + contribution,0.121,0.973,0.215,479,37
+m_c > 0 (non-trivial),Audit: ownership only,0.077,1.000,0.143,479,37
+m_c > 0 (non-trivial),Rule-only (counts),0.476,0.270,0.345,479,37
+m_c > 0 (non-trivial),No warning,0.000,0.000,0.000,479,37

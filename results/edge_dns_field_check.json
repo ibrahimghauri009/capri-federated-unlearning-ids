@@ -1,0 +1,15 @@
+{
+ "rows": 2219201,
+ "non_numeric": 1845,
+ "share": 0.0008313803030910675,
+ "labels_of_non_numeric": {
+  "Normal": 1845
+ },
+ "examples": [
+  "0.debian.pool.ntp.org",
+  "0.debian.pool.ntp.org",
+  "0.debian.pool.ntp.org",
+  "0.debian.pool.ntp.org",
+  "1.debian.pool.ntp.org"
+ ]
+}

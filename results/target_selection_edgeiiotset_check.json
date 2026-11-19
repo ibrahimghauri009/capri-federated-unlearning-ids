@@ -1,0 +1,106 @@
+{
+ "dataset": "edgeiiotset",
+ "reference_model": "HistGradientBoosting, lr 0.02, 600 iterations, class-balanced weights (centralised), seed-0 split, validation set",
+ "train_accuracy": 0.9794345455309685,
+ "clean_class_counts": {
+  "Normal": 268592,
+  "Backdoor": 22117,
+  "DDoS_HTTP": 14151,
+  "DDoS_ICMP": 3,
+  "DDoS_TCP": 29153,
+  "DDoS_UDP": 1,
+  "Fingerprinting": 5,
+  "MITM": 358,
+  "Password": 65,
+  "Port_Scanning": 9991,
+  "Ransomware": 8291,
+  "SQL_injection": 1633,
+  "Uploading": 274,
+  "Vulnerability_scanner": 19612,
+  "XSS": 226
+ },
+ "exact_duplicates_removed": 1844729,
+ "rows_in_conflicting_groups": 1537,
+ "n_features": 32,
+ "val_recall": {
+  "Normal": 1.0,
+  "Backdoor": 0.714,
+  "DDoS_HTTP": 0.948,
+  "DDoS_ICMP": null,
+  "DDoS_TCP": 1.0,
+  "DDoS_UDP": null,
+  "Fingerprinting": null,
+  "MITM": 1.0,
+  "Password": 0.25,
+  "Port_Scanning": 0.998,
+  "Ransomware": 0.965,
+  "SQL_injection": 0.975,
+  "Uploading": 0.773,
+  "Vulnerability_scanner": 0.991,
+  "XSS": 0.889
+ },
+ "val_support": [
+  26854,
+  2211,
+  1415,
+  0,
+  2910,
+  0,
+  0,
+  31,
+  4,
+  994,
+  824,
+  158,
+  22,
+  1952,
+  18
+ ],
+ "qualifying": [
+  "XSS",
+  "Uploading",
+  "MITM",
+  "SQL_injection",
+  "Ransomware",
+  "Port_Scanning",
+  "DDoS_HTTP",
+  "Vulnerability_scanner",
+  "Backdoor",
+  "DDoS_TCP"
+ ],
+ "eligible_sorted_by_size": [
+  "XSS",
+  "MITM",
+  "SQL_injection",
+  "Ransomware",
+  "Port_Scanning",
+  "DDoS_HTTP",
+  "Vulnerability_scanner",
+  "DDoS_TCP"
+ ],
+ "thirds": [
+  [
+   "XSS",
+   "MITM",
+   "SQL_injection"
+  ],
+  [
+   "Ransomware",
+   "Port_Scanning",
+   "DDoS_HTTP"
+  ],
+  [
+   "Vulnerability_scanner",
+   "DDoS_TCP"
+  ]
+ ],
+ "targets": {
+  "rare": "MITM",
+  "medium": "Port_Scanning",
+  "common": "DDoS_TCP"
+ },
+ "excluded_not_separable": [
+  "Uploading",
+  "Backdoor"
+ ]
+}

@@ -1,0 +1,16 @@
+,raw,unique_after_dedup,kept_%
+Backdoor,24862,22117,88.96
+DDoS_HTTP,49911,14151,28.35
+DDoS_ICMP,116436,3,0.0
+DDoS_TCP,50062,29153,58.23
+DDoS_UDP,121568,1,0.0
+Fingerprinting,1001,5,0.5
+MITM,1214,358,29.49
+Normal,1615643,268592,16.62
+Password,50153,65,0.13
+Port_Scanning,22564,9991,44.28
+Ransomware,10925,8291,75.89
+SQL_injection,51203,1633,3.19
+Uploading,37634,274,0.73
+Vulnerability_scanner,50110,19612,39.14
+XSS,15915,226,1.42
