@@ -109,6 +109,13 @@ python tools/build.py
 `paper/tools/render.py` fills every placeholder in `paper/main_template.tex` from the analysis outputs and stops with
 an error if any value cannot be computed; `build.py` then compiles `main.tex` to `main.pdf`.
 
+To check only the numbers, without LaTeX (a few seconds), fill all 131 placeholders from `results/`:
+
+```
+cd paper
+python tools/render.py .. main_template.tex main_check.tex
+```
+
 ## Licence
 
 MIT; see `LICENSE`. The datasets are subject to their providers' terms.
